@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import authentication from "./../services/authentication";
 import { Link } from "react-router-dom";
 import "./../App.css";
-import "./../CSS/login.css";
+import "./../css/login.css";
 
 class login extends Component {
   returnedData;
