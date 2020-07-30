@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import newsData from "./../services/news";
+import newsData from "../../services/news";
 import ReactHtmlParser from "react-html-parser";
 import { Link } from "react-router-dom";
 import { Form } from "reactstrap";
