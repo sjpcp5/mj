@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import authentication from "../../services/authentication";
 import { Link } from "react-router-dom";
-import "./../App.css";
-import "./../css/login.css";
+import "../../App.css";
+import "../../css/login.css";
 
 class login extends Component {
   returnedData;
@@ -31,7 +31,7 @@ class login extends Component {
     this.setState({ isLoading: "Please wait.." });
     authentication.login(this.state.email).then((result) => {
       // console.log(result.data.message)
-      console.log(result.data.objects[0].metadata.email);
+      // console.log(result.data.objects[0].metadata.email);
       if (result.data.message === "No objects returned.") {
         this.setState({ message: "Wrong credentials, try again!!" });
         this.setState({ isLoading: "" });

@@ -1,0 +1,47 @@
+{
+  "bucket": {
+    "_id": "5f2213055218100007fd882f",
+    "slug": "e6f0a060-d1fa-11ea-b05f-7d2595453c9a",
+    "title": "React PWA with Authentication",
+    "object_types": [
+      {
+        "title": "admins",
+        "slug": "admins",
+        "singular": "admin",
+        "metafields": [],
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "preview_link": "",
+        "priority_locale": null
+      },
+      {
+        "title": "news",
+        "slug": "news",
+        "singular": "news",
+        "metafields": [],
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "preview_link": "",
+        "priority_locale": null
+      },
+      {
+        "title": "comments",
+        "slug": "comments",
+        "singular": "comment",
+        "metafields": [],
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "preview_link": "",
+        "priority_locale": null
+      }
+    ],
+    "objects": [],
+    "media": []
+  }
+}
