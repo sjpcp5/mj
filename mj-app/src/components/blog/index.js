@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Aboutus extends Component {
+export default class Blog extends Component {
   render() {
     return (
         <section id="blog" className="blog-mf sect-pt4 route">
