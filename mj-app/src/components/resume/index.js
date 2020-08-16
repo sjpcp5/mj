@@ -3,16 +3,13 @@ import React, { Component } from "react";
 export default class Resume extends Component {
   render() {
     return (
-      <section id="service" className="services-mf route">
+      <section id="service" className="services-mf pt-5 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
                 <h3 className="title-a">Services</h3>
-                <p className="subtitle-a">
-                  A summary of technical skills, work experience, and education
-                  background.
-                </p>
+                <p className="subtitle-a">Areas of Practice.</p>
                 <div className="line-mf" />
               </div>
             </div>
@@ -22,17 +19,15 @@ export default class Resume extends Component {
               <div className="service-box">
                 <div className="service-ico">
                   <span className="ico-circle">
-                    <i className="ion-code-working" />
+                    <i className="ion-monitor" />
                   </span>
                 </div>
                 <div className="service-content">
-                  <h2 className="s-title">Full Stack Web Development</h2>
+                  <h2 className="s-title">Web Design</h2>
                   <p className="s-description text-center">
-                    Collaboratative web application design and server
-                    development through git and kanban. Front end technologies
-                    and frameworks using ReactJS, JavaScript, HTML5, CSS,
-                    JQuery, Bootstrap, Tachyon, AJAX, SaSS, and backend MySQL,
-                    Sequelize, MongoDB, Express and Node.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                    Magni tempora perferendis eum non provident.
                   </p>
                 </div>
               </div>
@@ -41,21 +36,66 @@ export default class Resume extends Component {
               <div className="service-box">
                 <div className="service-ico">
                   <span className="ico-circle">
-                    <i className="ion-map" />
+                    <i className="ion-code-working" />
                   </span>
                 </div>
                 <div className="service-content">
-                  <h2 className="s-title">
-                    Geographic Information Systems Analyst
-                  </h2>
+                  <h2 className="s-title">Web Development</h2>
                   <p className="s-description text-center">
-                    Using ESRI ArcGeographic Information Systems Pro for map
-                    creation and data manipulation in team-based projects,
-                    synthesize pertinent spatial information for stakeholders in
-                    relation to environmental cleanup sites and flooding, and
-                    maintain and update valuable real property information in
-                    accordance with Congressional and Department of Defense
-                    standards.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                    Magni tempora perferendis eum non provident.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="service-box">
+                <div className="service-ico">
+                  <span className="ico-circle">
+                    <i className="ion-camera" />
+                  </span>
+                </div>
+                <div className="service-content">
+                  <h2 className="s-title">Photography</h2>
+                  <p className="s-description text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                    Magni tempora perferendis eum non provident.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="service-box">
+                <div className="service-ico">
+                  <span className="ico-circle">
+                    <i className="ion-android-phone-portrait" />
+                  </span>
+                </div>
+                <div className="service-content">
+                  <h2 className="s-title">Responsive Design</h2>
+                  <p className="s-description text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                    Magni tempora perferendis eum non provident.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="service-box">
+                <div className="service-ico">
+                  <span className="ico-circle">
+                    <i className="ion-paintbrush" />
+                  </span>
+                </div>
+                <div className="service-content">
+                  <h2 className="s-title">Graphic Design</h2>
+                  <p className="s-description text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                    Magni tempora perferendis eum non provident.
                   </p>
                 </div>
               </div>
@@ -68,13 +108,11 @@ export default class Resume extends Component {
                   </span>
                 </div>
                 <div className="service-content">
-                  <h2 className="s-title">Urban Planning &amp; Design</h2>
+                  <h2 className="s-title">Marketing Services</h2>
                   <p className="s-description text-center">
-                    A multidisciplinary approach to analyzing a city or
-                    community’s environment challenges. Using human observation,
-                    quanitative and qualitative analysis to synthize a designed
-                    and tailored long term possible plan to acheive the
-                    community's goals.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                    Magni tempora perferendis eum non provident.
                   </p>
                 </div>
               </div>
