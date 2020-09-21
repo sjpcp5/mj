@@ -2,8 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: $color-secondary;
-  color: $color-text-primary;
+  background-color: color-secondary;
+  color: color-text-primary;
 }
 
 h1,
@@ -12,15 +12,15 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-text-secondary;
+  color: color-text-secondary;
 }
 
 a {
-  color: $color-text-secondary;
+  color: color-text-secondary;
   transition: all 0.5s ease-in-out;
 
   &:hover {
-    color: $color-primary;
+    color: color-primary;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
   }
@@ -31,15 +31,15 @@ a {
 }
 
 .color-a {
-  color: $color-primary;
+  color: color-primary;
 }
 
 .color-d {
-  color: $color-secondary;
+  color: color-secondary;
 }
 
 .color-text-a {
-  color: $color-text-primary;
+  color: color-text-primary;
 }
 
 .box-shadow {
@@ -47,7 +47,7 @@ a {
 }
 
 .box-shadow-a {
-  box-shadow: 0 0 0 4px $color-primary-light;
+  box-shadow: 0 0 0 4px color-primary-light;
 }
 
 .display-5 {
@@ -80,7 +80,7 @@ a {
 }
 
 .overlay-mf {
-  background-color: $color-primary;
+  background-color: color-primary;
 }
 
 .overlay-mf {
@@ -90,7 +90,7 @@ a {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .paralax-mf {
@@ -126,7 +126,7 @@ a {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: $color-text-secondary;
+  color: color-text-secondary;
   font-size: 1.1rem;
 }
 
@@ -142,13 +142,13 @@ a {
 }
 
 .subtitle-a {
-  color: $color-text-primary;
+  color: color-text-primary;
 }
 
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: $color-primary;
+  background-color: color-primary;
   margin: 0 auto;
 }
 
@@ -162,10 +162,10 @@ a {
   position: relative;
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     height: 3px;
-    background-color: $color-primary;
+    background-color: color-primary;
     width: 100px;
     bottom: -12px;
   }
@@ -208,13 +208,13 @@ a {
     border-radius: 50%;
     line-height: 1.4;
     margin: 0 15px 0 0;
-    box-shadow: 0 0 0 3px $color-primary;
+    box-shadow: 0 0 0 3px color-primary;
     transition: all 500ms ease;
 
     &:hover {
-      background-color: $color-primary;
+      background-color: color-primary;
       color: #fff;
-      box-shadow: 0 0 0 3px $color-primary-light;
+      box-shadow: 0 0 0 3px color-primary-light;
       transition: all 500ms ease;
     }
   }
@@ -232,7 +232,7 @@ a {
   line-height: 2;
 
   span {
-    color: $color-primary;
+    color: color-primary;
     margin-right: 10px;
   }
 }
@@ -246,7 +246,7 @@ a {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px $color-primary;
+  box-shadow: 0 0 0 10px color-primary;
   display: block;
 }
 
@@ -263,8 +263,8 @@ a {
         width: 18px;
         height: 7px;
         margin: 5px 5px;
-        background: $color-primary-light;
-        border: 0px solid $color-primary-light;
+        background: color-primary-light;
+        border: 0px solid color-primary-light;
         display: block;
         transition: all 0.6s ease-in-out;
         cursor: pointer;
@@ -272,13 +272,13 @@ a {
 
       &:hover {
         span {
-          background-color: $color-primary-light;
+          background-color: color-primary-light;
         }
       }
 
       &.active {
         span {
-          background-color: #1B1B1B;
+          background-color: #1b1b1b;
           width: 25px;
         }
       }
@@ -296,8 +296,8 @@ a {
     position: fixed;
     width: 42px;
     height: 42px;
-    background-color: $color-primary;
-    opacity: .7;
+    background-color: color-primary;
+    opacity: 0.7;
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
@@ -315,7 +315,7 @@ a {
 .back-to-top {
   position: fixed;
   display: none;
-  background: $color-primary;
+  background: color-primary;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -323,7 +323,7 @@ a {
   line-height: 1;
   font-size: 16px;
   border-radius: 50%;
-  right:15px;
+  right: 15px;
   bottom: 15px;
   transition: background 0.5s;
   z-index: 11;
@@ -333,13 +333,13 @@ a {
     color: #fff;
   }
 
-  @media (max-width: 768px){
-   bottom: 15px;
+  @media (max-width: 768px) {
+    bottom: 15px;
   }
 }
 
 /*------/ Prelaoder /------*/
-#preloader { 
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -356,7 +356,7 @@ a {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid $color-primary;
+  border-top: 6px solid color-primary;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -364,20 +364,23 @@ a {
 }
 
 @keyframes animate-preloader {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 
 /*------/ Button /------*/
 .button {
   display: inline-block;
-  padding: .3rem .6rem;
+  padding: 0.3rem 0.6rem;
   text-align: center;
   vertical-align: middle;
   user-select: none;
   font-size: 1rem;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   border: 1px solid transparent;
   transition: all 500ms ease;
   cursor: pointer;
@@ -387,7 +390,7 @@ a {
   }
 
   &:hover {
-    background-color: $color-primary-dark;
+    background-color: color-primary-dark;
     color: #fff;
     transition: all 500ms ease;
     @extend .box-shadow-a;
@@ -395,13 +398,13 @@ a {
 }
 
 .button-a {
-  background-color: $color-primary;
+  background-color: color-primary;
   color: #fff;
-  border-color: $color-primary-light;
+  border-color: color-primary-light;
 }
 
 .button-big {
-  padding: .9rem 2.3rem;
+  padding: 0.9rem 2.3rem;
   font-size: 1.2rem;
 }
 
@@ -410,8 +413,8 @@ a {
 }
 
 .btn-lg {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }

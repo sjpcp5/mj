@@ -4,7 +4,7 @@ import "../../scss/_blog.scss";
 export default class Blog extends Component {
   render() {
     return (
-        <section id="blog" className="blog-mf sect-pt4 route">
+      <section id="blog" className="blog-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -22,7 +22,11 @@ export default class Blog extends Component {
               <div className="card card-blog">
                 <div className="card-img">
                   <a href="blog-single.html">
-                    <img src="assets/img/post-1.jpg" alt className="img-fluid" />
+                    <img
+                      src="assets/img/post-1.jpg"
+                      alt
+                      className="img-fluid"
+                    />
                   </a>
                 </div>
                 <div className="card-body">
@@ -36,8 +40,8 @@ export default class Blog extends Component {
                   </h3>
                   <p className="card-description">
                     Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque nec,
-                    egestas non nisi.
+                    dapibus. Praesent sapien massa, convallis a pellentesque
+                    nec, egestas non nisi.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -61,7 +65,11 @@ export default class Blog extends Component {
               <div className="card card-blog">
                 <div className="card-img">
                   <a href="blog-single.html">
-                    <img src="assets/img/post-2.jpg" alt className="img-fluid" />
+                    <img
+                      src="assets/img/post-2.jpg"
+                      alt
+                      className="img-fluid"
+                    />
                   </a>
                 </div>
                 <div className="card-body">
@@ -75,8 +83,8 @@ export default class Blog extends Component {
                   </h3>
                   <p className="card-description">
                     Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque nec,
-                    egestas non nisi.
+                    dapibus. Praesent sapien massa, convallis a pellentesque
+                    nec, egestas non nisi.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -100,13 +108,19 @@ export default class Blog extends Component {
               <div className="card card-blog">
                 <div className="card-img">
                   <a href="blog-single.html">
-                    <img src="assets/img/post-3.jpg" alt className="img-fluid" />
+                    <img
+                      src="assets/img/post-3.jpg"
+                      alt
+                      className="img-fluid"
+                    />
                   </a>
                 </div>
                 <div className="card-body">
                   <div className="card-category-box">
                     <div className="card-category">
-                      <h6 className="category">Gender &amp; Sexual Orientation</h6>
+                      <h6 className="category">
+                        Gender &amp; Sexual Orientation
+                      </h6>
                     </div>
                   </div>
                   <h3 className="card-title">
@@ -116,12 +130,13 @@ export default class Blog extends Component {
                   </h3>
                   <p className="card-description">
                     This is a long awaited, very welcome decision that finally
-                    recognizes what many excellent attorneys have been arguing for
-                    years now, which is discriminating against a person because of
-                    their sexual orientation and/or gender identity is absolutely and
-                    unequivocally sex discrimination. Much grateful thanks to Justice
-                    Neil Gorsuch for drafting the majority opinion, which recognizes
-                    that sex cannot be separated from this equation.
+                    recognizes what many excellent attorneys have been arguing
+                    for years now, which is discriminating against a person
+                    because of their sexual orientation and/or gender identity
+                    is absolutely and unequivocally sex discrimination. Much
+                    grateful thanks to Justice Neil Gorsuch for drafting the
+                    majority opinion, which recognizes that sex cannot be
+                    separated from this equation.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -144,6 +159,6 @@ export default class Blog extends Component {
           </div>
         </div>
       </section>
-      
+    );
   }
 }

@@ -64,15 +64,15 @@
 
   .breadcrumb {
     background-color: transparent;
-    color: $color-primary;
+    color: color-primary;
 
     .breadcrumb-item {
       &:before {
-        color: $color-primary-light;
+        color: color-primary-light;
       }
 
       &.active {
-        color: $color-primary-light;
+        color: color-primary-light;
       }
     }
 

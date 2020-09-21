@@ -27,26 +27,26 @@
     color: #fff;
     padding: 0 15px 5px;
     overflow: hidden;
-    background-color: $color-primary;
+    background-color: color-primary;
     border-radius: 4px;
 
     .category {
       color: #fff;
       display: inline-block;
       text-transform: uppercase;
-      font-size: .7rem;
-      letter-spacing: .1px;
+      font-size: 0.7rem;
+      letter-spacing: 0.1px;
       margin-bottom: 0;
     }
   }
 
   .card-title {
     font-size: 1.3rem;
-    margin-top: .6rem;
+    margin-top: 0.6rem;
   }
 
   .card-description {
-    color: $color-text-primary;
+    color: color-text-primary;
   }
 
   .post-author {
@@ -54,12 +54,11 @@
   }
 
   .post-date {
-    color: $color-text-primary;
+    color: color-text-primary;
     display: inline-block;
     float: right;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Blog Single
@@ -90,7 +89,7 @@
     margin: 1rem 0;
 
     ul {
-      border-left: 4px solid $color-primary;
+      border-left: 4px solid color-primary;
       margin-top: 1rem;
       @extend .ul-resect;
 
@@ -100,17 +99,17 @@
       }
 
       a {
-        color: $color-primary;
+        color: color-primary;
       }
 
       span {
-        color: $color-text-secondary;
+        color: color-text-secondary;
       }
     }
   }
 
   .blockquote {
-    border-left: 4px solid $color-primary;
+    border-left: 4px solid color-primary;
     padding: 18px;
     font-style: italic;
   }
@@ -150,11 +149,11 @@
     }
 
     a {
-      color: $color-primary;
+      color: color-primary;
     }
 
     span {
-      color: $color-text-secondary;
+      color: color-text-secondary;
       font-style: italic;
     }
   }
@@ -169,7 +168,7 @@
   .sidebar-title {
     font-size: 1.6rem;
     font-weight: 600;
-    border-left: 5px solid $color-primary;
+    border-left: 5px solid color-primary;
     padding-left: 15px;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
@@ -188,7 +187,7 @@
         width: 10px;
         height: 1px;
         left: 0;
-        background-color: $color-primary;
+        background-color: color-primary;
         top: 20px;
       }
     }
@@ -203,8 +202,8 @@
   }
 
   .btn-search {
-    background-color: $color-primary;
-    border-color: $color-primary;
+    background-color: color-primary;
+    border-color: color-primary;
     border-radius: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -217,9 +216,9 @@
 
     li {
       display: inline-block;
-      background-color: $color-primary;
-      padding: .2rem .6rem;
-      margin-bottom: .5rem;
+      background-color: color-primary;
+      padding: 0.2rem 0.6rem;
+      margin-bottom: 0.5rem;
       border-radius: 15px;
 
       a {
