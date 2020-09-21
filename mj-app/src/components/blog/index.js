@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../../scss/_blog.scss";
 
 export default class Blog extends Component {
   render() {

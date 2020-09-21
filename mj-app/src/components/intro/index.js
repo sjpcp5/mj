@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import "../../scss/_intro.scss";
 
-export default class intro extends Component {
+export default class Intro extends Component {
   render() {
     return (
       <div id="home" className="intro route-bg">

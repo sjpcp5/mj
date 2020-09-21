@@ -6,6 +6,8 @@ import Portfolio from "../components/portfolio";
 import Testimonials from "../components/testimonials";
 import BlogSection from "../components/blog";
 import Contact from "../components/contactus";
+import "../scss/_sections.scss";
+import "../scss/_variables.scss";
 
 function Main() {
   return (
